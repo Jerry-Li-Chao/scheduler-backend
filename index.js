@@ -21,6 +21,7 @@ app.get("/api/posts", (request, response) => {
   });
 });
 
+// GET specific task
 app.get("/api/posts/:id", (request, response) => {
   const client = createClient();
 
